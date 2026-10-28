@@ -142,6 +142,288 @@ body{background-color:#ffffff;color:var(--contrast);}a{color:var(--accent);}a{te
   background-image: url('your-background-image-url.jpg');
   background-size: cover;
 }
+
+/* Collapsible archive of the 2023-2024 impact content. */
+.elementor-2973 .elementor-element-167b39a {
+  display: none !important;
+}
+
+.elementor-2973.ulta-impact-collapsed .elementor-element-b24e70c,
+.elementor-2973.ulta-impact-collapsed .elementor-element-e44f21e,
+.elementor-2973.ulta-impact-collapsed > .elementor-element-6263f3c ~ .elementor-element {
+  display: none !important;
+}
+
+.ulta-impact-toggle-widget {
+  margin-bottom: 0 !important;
+}
+
+.ulta-impact-toggle {
+  align-items: center;
+  background: #f7f8f9 !important;
+  border: 1px solid #d8dde3;
+  border-radius: 12px;
+  color: #111111 !important;
+  cursor: pointer;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(20px, 3vw, 32px);
+  font-weight: 700;
+  gap: 20px;
+  justify-content: space-between;
+  line-height: 1.25;
+  padding: 20px 24px;
+  text-align: left;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+}
+
+.ulta-impact-toggle:hover,
+.ulta-impact-toggle:focus-visible {
+  background: #eef5ff !important;
+  border-color: #0079ff;
+  box-shadow: 0 0 0 3px rgba(0, 121, 255, 0.15);
+}
+
+.ulta-impact-toggle__icon {
+  flex: 0 0 auto;
+  transition: transform 0.2s ease;
+}
+
+.ulta-impact-toggle[aria-expanded="true"] .ulta-impact-toggle__icon {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 600px) {
+  .ulta-impact-toggle {
+    padding: 17px 18px;
+  }
+}
+
+/* Current program overview. */
+.ulta-main-content-widget {
+  margin-bottom: 42px !important;
+}
+
+.ulta-main-content {
+  color: #111111;
+  margin: 0 auto;
+  max-width: 1060px;
+}
+
+.ulta-main-content__intro {
+  margin: 0 auto 64px;
+  max-width: 980px;
+  text-align: center;
+}
+
+.ulta-main-content__intro h1 {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(38px, 5.5vw, 68px);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.03;
+  margin: 0 auto 24px;
+}
+
+.ulta-main-content__intro p {
+  color: #4f5965;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(18px, 2.1vw, 24px);
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+.ulta-main-content__section {
+  margin-top: 64px;
+}
+
+.ulta-main-content__eyebrow {
+  color: #006ee6;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.ulta-main-content__section h2 {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(29px, 3.4vw, 42px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0 0 28px;
+}
+
+.ulta-program-timeline {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ulta-program-timeline__item {
+  background: #f7f8f9;
+  border: 1px solid #e2e5e9;
+  border-radius: 14px;
+  padding: 26px;
+}
+
+.ulta-program-timeline__number {
+  align-items: center;
+  background: #0079ff;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 34px;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 34px;
+}
+
+.ulta-program-timeline__item h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 10px;
+}
+
+.ulta-program-timeline__item p {
+  color: #4f5965;
+  font-size: 16px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.ulta-cohort-results {
+  background: #0c1d38;
+  border-radius: 18px;
+  color: #ffffff;
+  padding: clamp(28px, 5vw, 54px);
+}
+
+.ulta-cohort-results .ulta-main-content__eyebrow {
+  color: #78b8ff;
+}
+
+.ulta-cohort-results h2 {
+  color: #ffffff;
+}
+
+.ulta-results-list {
+  display: grid;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ulta-results-list > li {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  color: #e8edf5;
+  font-size: 16px;
+  line-height: 1.65;
+  padding: 20px 22px;
+}
+
+.ulta-results-list strong {
+  color: #ffffff;
+}
+
+.ulta-impact-projects {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.ulta-impact-projects li {
+  border-left: 2px solid #78b8ff;
+  padding-left: 16px;
+}
+
+.ulta-impact-projects a {
+  color: #9dcbff;
+}
+
+.ulta-kse-logo-link {
+  align-items: center;
+  background: #0c1d38;
+  border-radius: 14px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-height: 190px;
+  padding: 42px 34px;
+  width: 100%;
+}
+
+.elementor-2973 .ulta-kse-logo-link img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100% !important;
+  object-position: center center;
+  width: 280px !important;
+}
+
+.ulta-kse-partner__grid {
+  align-items: center;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.5fr);
+}
+
+.ulta-kse-partner__copy p {
+  color: #4f5965;
+  font-size: 16px;
+  line-height: 1.65;
+  margin: 0 0 16px;
+}
+
+.ulta-kse-partner__copy p:last-child {
+  margin-bottom: 0;
+}
+
+.ulta-kse-partner__copy a {
+  color: #1e73be;
+}
+
+@media (max-width: 760px) {
+  .ulta-main-content__intro {
+    margin-bottom: 48px;
+  }
+
+  .ulta-main-content__section {
+    margin-top: 48px;
+  }
+
+  .ulta-program-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .ulta-program-timeline__item {
+    padding: 22px;
+  }
+
+  .ulta-kse-partner__grid {
+    gap: 24px;
+    grid-template-columns: 1fr;
+  }
+}
 		</style>
 		<style id="wpr_lightbox_styles">
 				.lg-backdrop {
@@ -266,7 +548,7 @@ body{background-color:#ffffff;color:var(--contrast);}a{color:var(--accent);}a{te
 				<div id="primary-menu" class="main-nav"><ul id="menu-menu-1" class=" menu sf-menu"><li id="menu-item-966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966"><a href="./">Home</a></li>
 <li id="menu-item-973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-973"><a href="#">About Us<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z" /></svg></span></span></a>
 <ul class="sub-menu">
-	<li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"><a href="team/">Our Team</a></li>
+	<li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1025"><a href="team/">ULTA Founders</a></li>
 	<li id="menu-item-965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-965"><a href="curriculum/">Curriculum</a></li>
 	<li id="menu-item-1462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1462"><a href="partners/">Our Partners</a></li>
 </ul>
@@ -287,7 +569,7 @@ body{background-color:#ffffff;color:var(--contrast);}a{color:var(--accent);}a{te
 		
 	<div class="site grid-container container hfeed" id="page">
 				<div class="site-content" id="content">
-					<div data-elementor-type="wp-page" data-elementor-id="2973" class="elementor elementor-2973">
+					<div data-elementor-type="wp-page" data-elementor-id="2973" class="elementor elementor-2973 ulta-impact-collapsed">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-3e9760e9 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle exad-glass-effect-no wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no wpr-column-slider-no wpr-equal-height-no exad-sticky-section-no" data-id="3e9760e9" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
@@ -365,6 +647,84 @@ body{background-color:#ffffff;color:var(--contrast);}a{color:var(--accent);}a{te
 			<div class="elementor-spacer-inner"></div>
 		</div>
 						</div>
+				</div>
+				<div class="elementor-element elementor-widget ulta-main-content-widget">
+				<div class="elementor-widget-container">
+					<div class="ulta-main-content">
+						<header class="ulta-main-content__intro">
+							<h1 id="ulta-main-title">Connecting Ukraine's Top STEM Youth with MIT’s World-Class Environment</h1>
+							<p>ULTA develops Ukraine’s future technical leaders by bridging top high school talent with MIT mentors.</p>
+						</header>
+
+						<section class="ulta-main-content__section" aria-labelledby="ulta-program-title">
+							<h2 id="ulta-program-title">Core program structure</h2>
+							<ol class="ulta-program-timeline">
+								<li class="ulta-program-timeline__item">
+									<span class="ulta-program-timeline__number">01</span>
+									<h3>Camp 1 <span aria-hidden="true">·</span> August 2027</h3>
+									<p>One week in Europe: 20 selected Ukrainian students in grades 9–10 are matched with five MIT student mentors (a 1:4 ratio) for intensive, project-based study in AI, economics, and technology.</p>
+								</li>
+								<li class="ulta-program-timeline__item">
+									<span class="ulta-program-timeline__number">02</span>
+									<h3>Remote <span aria-hidden="true">·</span> Fall 2027</h3>
+									<p>With a mentor, each student works through an MIT course via MIT OpenCourseWare.</p>
+								</li>
+								<li class="ulta-program-timeline__item">
+									<span class="ulta-program-timeline__number">03</span>
+									<h3>Camp 2 <span aria-hidden="true">·</span> January 2028</h3>
+									<p>Three weeks in Poland: accelerator-style work in project teams. Teams pitch real-world projects to partner VC funds and angel investors for grants and mentorship.</p>
+								</li>
+								<li class="ulta-program-timeline__item">
+									<span class="ulta-program-timeline__number">04</span>
+									<h3>Remote <span aria-hidden="true">·</span> Spring 2028</h3>
+									<p>Students work remotely on projects that create meaningful impact for Ukraine.</p>
+								</li>
+							</ol>
+						</section>
+
+						<section class="ulta-main-content__section ulta-cohort-results" aria-labelledby="ulta-results-title">
+							<span class="ulta-main-content__eyebrow">2023–2024</span>
+							<h2 id="ulta-results-title">Success of the first cohort</h2>
+							<ul class="ulta-results-list">
+								<li><strong>Outreach &amp; selectivity:</strong> 725+ applications for 20 spots from cities across Ukraine—a 2.7% acceptance rate.</li>
+								<li><strong>Student outcomes:</strong> Alumni were admitted to MIT (3), UC Berkeley (1), and top U.S. boarding schools. They won medals in international Olympiads, earned distinctions including the Rise Fellowship, ISEF, and Genius Olympiad awards, and scored in the top &lt;1% on the SAT.</li>
+								<li>
+									<strong>Impact projects:</strong> Of eight student projects, three were completed with real-world impact.
+									<ul class="ulta-impact-projects">
+										<li><strong>Khan Academy for Ukraine:</strong> Supporting millions of students affected by war by translating 15 Khan Academy courses into Ukrainian—1,800+ videos and 3.5 million+ words. The project raised $475,000+.</li>
+										<li><strong>Flow:</strong> The first AI translation pipeline for <a href="https://ocw.mit.edu/">MIT OpenCourseWare</a>.</li>
+										<li><strong>TacticSquare:</strong> A defense-tech startup building an AI combat simulator for UAV coordination.</li>
+									</ul>
+								</li>
+							</ul>
+						</section>
+
+						<section class="ulta-main-content__section ulta-kse-partner" aria-labelledby="ulta-kse-partner-title">
+							<span class="ulta-main-content__eyebrow">2027–2028 program</span>
+							<h2 id="ulta-kse-partner-title">Our founding partner: KSE Foundation</h2>
+							<div class="ulta-kse-partner__grid">
+								<a class="ulta-kse-logo-link" href="https://foundation.kse.ua/en/what-we-do/">
+									<img loading="lazy" decoding="async" width="200" height="27" src="../wp-content/uploads/2026/10/KSE_Foundation_logo.svg" alt="KSE Foundation" />
+								</a>
+								<div class="ulta-kse-partner__copy">
+									<p><strong>KSE</strong> is a group of companies that includes a world-class private higher educational institution (KSE University), one of the largest analytical centers of Ukraine (KSE Institute), and a Charitable Foundation (KSE Foundation).</p>
+									<p>KSE was founded in 1996 by the Economic Research and Education Consortium (EERC) and the Eurasia Foundation.</p>
+									<p>Since the beginning of the large-scale Russian invasion, the KSE Foundation has been raising funds for charitable assistance for Ukrainians. Before the full-scale invasion, we raised money for education to change lives, and now we raise money to save lives. <a href="https://foundation.kse.ua/en/what-we-do/">Read more about the KSE Foundation here.</a></p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-widget ulta-impact-toggle-widget">
+				<div class="elementor-widget-container">
+					<button class="ulta-impact-toggle" type="button" aria-expanded="false">
+						<span>ULTA 2023–2024: Our Impact</span>
+						<svg class="ulta-impact-toggle__icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</button>
+				</div>
 				</div>
 				<div class="elementor-element elementor-element-167b39a exad-sticky-section-no exad-glass-effect-no elementor-widget elementor-widget-heading" data-id="167b39a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -2010,6 +2370,23 @@ var WprConfig = {"ajaxurl":"https:\/\/ultacademy.org\/wp-admin\/admin-ajax.php",
 </script>
 <script data-cfasync="false" src="../wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js" id="wpr-addons-js-js"></script>
 <script src="../wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js" id="wpr-modal-popups-js-js"></script>
+
+<script>
+(function () {
+  var page = document.querySelector('.elementor-2973');
+  var toggle = document.querySelector('.ulta-impact-toggle');
+
+  if (!page || !toggle) {
+    return;
+  }
+
+  toggle.addEventListener('click', function () {
+    var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!isExpanded));
+    page.classList.toggle('ulta-impact-collapsed', isExpanded);
+  });
+}());
+</script>
 
 </body>
 </html>
